@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour And Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+
+        <img src="Machu Pichu,Peru.jpg" alt="" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Popular Places</a></li>
+            <li><a href="second.html">Homes Outside</a></li>
+            <li><a href="third.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Rad Villa</h1>
+            <div class="row">
+                <div>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                    <span>265 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco</p>,California,United states
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="5.jpg" alt=""></div>
+            <div><img src="1.jpg" alt=""></div>
+            <div><img src="3.jpg" alt=""></div>
+            <div><img src="4.jpg" alt=""></div>
+            <div><img src="2.jpg" alt="" style="height:167px;"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 Bathroom</p>
+            <h4>$150/day</h4>
+        </div>
+        <hr class="line">
+        <form action="" class="check-form">
+            <div>
+                <label for="">Check-In</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label for="">Check-Out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label for="">Add Guest</label>
+                <input type="text" placeholder="2 Guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+        <ul class="details-list">
+            <li><i class="fa fa-home"></i>Entire House
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fa fa-paint-brush"></i>Entirely Coloured
+                <span>Your life will be filled with full of colours.</span>
+            </li>
+            <li><i class="fa fa-map-marker"></i>Location
+                <span>Location on Map</span>
+            </li>
+            <li><i class="fa fa-heart"></i>With Love
+                <span>This is for You.</span>
+            </li>
+        </ul>
+        <hr class="line">
+        <p class="home-desc">“Elegant custom home offers unparalleled craftsmanship and exceptional amenities! This French inspired design is truly remarkable inside and out. Features include cherry cabinets, quartz counter tops, crown molding, custom windows provide plenty of natural lighting, expansive decking (1000 sq. ft.), gourmet kitchen with island (great for entertaining), gorgeous master suite, den, storage, plus STUNNING views of San Francisco, Calfornia,USA.”!</p>
+        <hr class="line">
+        <div class="map">
+            <h3>Location On Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555026262!2d-122.50764059758798!3d37.757814997138894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1662347076760!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>San Francisco,California,United States Of America</b>
+            <p>It's like a Home away from home.</p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <div>
+                <h2>Hosted By Brandon</h2>
+                <p><span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </span>&nbsp;&nbsp; 245 Reviews &nbsp;&nbsp; response rate 100% &nbsp; &nbsp; Response time: 60 min</p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+    </div>
+    <div class="container">
+    <div class="footer">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+        <hr>
+        <p>Copyright &copy; 2021,Tours And Travels </p>
+    </div>
+    </div>
+    </div>
+    <script>
+        var navBar=document.getElementById('navBar');
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
